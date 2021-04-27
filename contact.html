@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Contact Info</title>
+</head>
+<body>
+    <h3>Contact Info</h3>
+    <div id="contact_info">
+        <p>Email: <a href="mailto:tonytgarcia@gmail.com">tonytgarcia@gmail.com</a><br>
+        Phone: (832) 605-8126<br>Location: Pearland, TX</p>
+    </div>
+    <hr>
+
+    <div id="form">
+        <form action="mailto:tonytgarcia@gmail.com" method="post" class="contact_form" enctype="text/plain">
+            <div>
+                <label for="full_name">Your Name:</label>
+                <input id="full_name" type="text" name="full_name">(First Last)</div>
+            <div>
+                <label for="email">Your Email Address:</label>
+                <input id="email" type="email" name="email"></div>
+            <div>
+                <label for="message">Your Message:</label>
+                <textarea id="message" type="textarea" name="message"></textarea></div>
+            <div>
+            <input type="submit" name="submit" class="submit_btn"></div>
+        </form>
+
+    </div>
+</body>
+</html>
